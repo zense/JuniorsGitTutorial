@@ -1,8 +1,8 @@
 ---
-title:  "Test"
-subtitle: "Delete this"
-author: "Tester"
-avatar: "img/authors/wferr.png"
+title:  "Intro Git and Github"
+subtitle: "Ready to dive into to the world of OpenSource?"
+author: "Zense"
+avatar: "img/authors/zense.png"
 image: "img/iiitb.png"
 date:   2021-01-11 12:12:12
 ---
