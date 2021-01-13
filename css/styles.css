@@ -1,0 +1,14 @@
+#zense-logo {
+    width: 55%;
+    min-width: 260px;
+    max-width: 500px;
+    margin: auto;
+}
+.header {
+    padding: 40px 0;
+}
+.body .header p {
+    padding: 75px 0 25px 0;
+    width: 55%;
+    margin: auto;
+}
