@@ -28,19 +28,22 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Git Tutorial<span>Zense, IIIT Bangalore</span></h1>
+        <!-- <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1> -->
+        <a href="https://zense.co.in" target="_blank"><img src="img/logo/zense_logo.png"/></a>
         <nav class="links">
+            
             <a href="https://github.com/zense" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
-            <a href="https://zense.co.in/" target="_blank"><img src="img/zense.png" alt="zense logo" width="150" height="150"></a>
             <a href="https://www.facebook.com/zense.dev/" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
         </nav>
+        <p class = "header">Freshers @ IIIT Bangalore ! We'd love to get to know you! Open the first blog below to know how!</p>
     </header>
     <div class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% for post in site.posts %}
+            {% for post in site.posts | reversed %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
