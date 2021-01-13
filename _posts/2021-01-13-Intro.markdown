@@ -7,14 +7,122 @@ image: "img/logo/git_black1.png"
 date:   2021-01-13 00:00:00
 ---
 
-### What is to to be done?
-This is an attempt to give you a hands-on experience with using Git and Github for version control. (Please fill in content)
 
-### Aliquam suscipit.
-Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
+Hello, and welcome to this website!  
+Through this activity-based tutorial, you'll learn how to:  
+* ```Fork``` a repository
+* ```Clone``` a repository
+* Install ```ruby```, ```jekyll``` and host the project locally
+* Add your files (in the right format for the purposes of the project), including but not limited to:
+    * Name, and other personal details
+    * Profile image
+    * Links
+* ```Commit```, and ```Push``` your changes to the repository
+* Confirming the pull request
 
-Suspendisse lorem odio, blandit at nisl quis, hendrerit tempus tellus. Donec eget leo quis nisi vulputate consectetur. Praesent dignissim enim elit, congue luctus nisl cursus at. Sed rutrum molestie risus. Donec vulputate gravida accumsan. Vivamus tempus ullamcorper eleifend. Sed sagittis mi ut dolor tincidunt, ac rutrum nisi commodo.
 
-Fusce non elit in diam rutrum vestibulum. Donec vitae elementum erat. Praesent elementum eget justo at bibendum. Fusce interdum diam lorem, ut placerat elit pretium quis. Quisque eu urna at quam commodo sagittis. Etiam posuere convallis tincidunt. Phasellus vitae ligula neque. Vivamus a purus at dolor iaculis placerat. Curabitur convallis eu lacus congue sagittis.
+## Forking the repository  
+Background information about forking: [Github Documentation](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)  
 
-Aliquam suscipit fermentum mauris a accumsan. In facilisis, mauris quis pulvinar tempus, turpis sapien sodales nibh, nec feugiat augue est quis nisi. Fusce eget odio feugiat, luctus quam et, dapibus nulla. Sed ornare lacus non libero lacinia pretium. In eu dui vitae purus euismod feugiat ac ac est. Morbi vitae pretium lorem, non eleifend felis. Nullam at massa feugiat, rutrum elit at, semper lacus. Etiam vel rutrum felis. Nullam quis auctor lorem, et tempor arcu.
+A fork is a _copy_ of a repository.    
+
+Forking a repository allows you to freely experiment with changes without affecting the original project. This is something you'd want to do on a regular basis, to make sure that your changes work and do not affect any other part of the project in an adverse manner.  
+These are the steps to follow:  
+* Navigate to the [repo](https://github.com/zense/JuniorsGitTutorial), and click on the ``` fork ``` button.
+* This should create a repo with the name of the form ```YOUR-USERNAME/YOUR-REPOSITORY``` 
+
+## Cloning the forked repository    
+Background information about cloning: [Github Documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)  
+
+When you clone a repository, you *copy* the repository from GitHub to your local machine.  
+These are the steps to follow:  
+* Open your terminal window, and navigate to a newly created folder. An example implementation is:
+    * ```mkdir MyIntro```
+    * ```cd MyIntro```
+* Then, go to your forked repository, click on the green code button and copy the link provided. 
+* Then, go to your terminal and paste it. It could be of the form, ``` git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```  
+
+## Installing the dependencies required to run the project  
+While this _is_ optional to an extent, we recommend doing this process as you could learn about a lot of things along the way should something go wrong during the installation process. More importantly, you can see if the changes you made are reflected correctly in the project.  
+### Installing ruby 
+* Open your terminal and go to your home directory. The file path should be of the form ``` /home/YOUR-COMPUTER-NAME ```  
+* Then, type ```sudo apt-get update ```. You might be asked to enter your password.
+* Then type ```sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev ```
+* Then, type ```git clone https://github.com/rbenv/rbenv.git ~/.rbenv ```. Do you see the git clone here? Bonus points for checking out the repo! But, please do it after the activity.
+* Then, type ```echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc ```
+* Then, type ```echo 'eval "$(rbenv init -)"' >> ~/.bashrc```
+* Then, type ```exec $SHELL ```
+* Then, type ```git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build```. This could take a lot of time; you can prepare your material until then. 
+* Then, type ```echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc ```
+* Then, type ```exec $SHELL ```
+* Then, type ```rbenv install 2.7.1 ```
+* Then, type ```rbenv global 2.7.1 ```
+* To check the version of ruby installed, type ```ruby -v ```. It should be something along the lines of *2.7.1*
+
+### Installing bundler
+* Type ```gem install bundler ```
+* Then, type ```rbenv rehash ```
+
+### Installing jekyll
+* Type ``` gem install bundler jekyll ```  
+  
+### Hosting the project locally
+Whew! That was a lot of work.  
+Let's check the project out and see if it works.  
+For this, type  ``` bundle exec jekyll serve ```. You should find the site on ```http://127.0.0.1:4000/JuniorsGitTutorial/```
+
+### Adding your files and information  
+Now for the fun part!  
+You'll need the following files ready:
+* A background picture for your post. Call it ```YOUR-ROLL-NUMBER-BACKGROUND.jpg```
+* A profile picture for your post. Call it ```YOUR-ROLL-NUMBER-PROFILE.jpg```
+  
+Now, open your code editor of choice, and add the two images as follows:
+* Add ```YOUR-ROLL-NUMBER-PROFILE.jpg``` into ```img/authors``` folder.
+* Add ```YOUR-ROLL-NUMBER-BACKGROUND.jpg``` into ```img``` folder.  
+ 
+For the post itself, we'll use the follwing format:
+*Filename*: ```2021-01-01-<YOUR-ROLL-NUMBER>.markdown``` 
+```
+---
+title:  "YOUR-ROLL-NUMBER"
+subtitle: "About Me"
+author: "YOUR-NAME"
+avatar: "img/authors/YOUR-ROLL-NUMBER-PROFILE.png"
+image: "img/YOUR-ROLL-NUMBER-BACKGROUND.jpg"
+date:   2021-01-01 12:12:12
+---
+
+## About me 
+...
+
+## Socials
+[Caption](link)
+...
+``` 
+
+Feel free to add your creative touch to the segments, but make sure to only modify the content below the two ```---``` placeholders. Create this file and add it to the ```_posts``` folder.  
+
+Now, run the project again locally, and see if your new post is reflected.
+
+### Committing and Pushing your changes  
+First, let's add the files. This is done by performing the following commands:  
+* ```git add img/authors/YOUR-ROLL-NUMBER-PROFILE.png```
+* ```git add img/YOUR-ROLL-NUMBER-BACKGROUND.png```
+* ```git add _posts/2021-01-01-<YOUR-ROLL-NUMBER>.markdown```  
+
+Now, type ``` git status ```. It should be all green.  
+
+Now, we commit our files by typing ``` git commit -m "Added files for YOUR-ROLL-NUMBER" ```.
+Finally, we push the changes by typing ``` git push -u origin master ```. 
+
+### Confirming the pull request
+Go back to your created repo on github and click on the ``` Compare and Pull request ```. Add relevant additional information, and you're done! 
+
+### Celebration Time
+We hope that everything went smmoothly. If not, do not hesitate to contact us :)  
+You can see the fruits of your hardwork [here](https://zense.co.in/JuniorsGitTutorial/)
+
+
+
+
