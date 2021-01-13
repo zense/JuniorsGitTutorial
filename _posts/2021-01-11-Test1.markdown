@@ -3,12 +3,12 @@ title:  "Test"
 subtitle: "Delete this"
 author: "Tester"
 avatar: "img/authors/wferr.png"
-image: "img/c.jpg"
+image: "img/iiitb.png"
 date:   2021-01-11 12:12:12
 ---
 
 ### What is this about?
 I am none the wiser.
 
-### SoCiAls
+### Wanna catch me up?
 You can find me on twitter. 
