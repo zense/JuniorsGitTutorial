@@ -158,17 +158,17 @@ var demo = (function (window) {
             // Open sequence.
 
             _setPatternBgImg($(this).find(SELECTORS.cardImage).find('image'));
-
+            sequence.add(card.hideCard());
             sequence.add(tweenOtherCards);
             sequence.add(card.openCard(_onCardMove), 0);
-
+            sequence.add(card.showCard());
         } else {
             // Close sequence.
-
+            sequence.add(card.hideCard());
             var closeCard = card.closeCard();
             var position = closeCard.duration() * 0.8; // 80% of close card tween.
-
             sequence.add(closeCard);
+            sequence.add(card.showCard());
             sequence.add(tweenOtherCards, position);
         }
 
