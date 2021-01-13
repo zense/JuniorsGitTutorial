@@ -247,7 +247,7 @@ var Card = (function (window) {
      */
     Card.prototype.hideCard = function () {
 
-        var tween = TweenLite.to(this._el, 0.4, {
+        var tween = TweenLite.to(this._el, 0.001, {
             scale: 0.8,
             autoAlpha: 0,
             transformOrigin: 'center bottom',
@@ -262,7 +262,7 @@ var Card = (function (window) {
      */
     Card.prototype.showCard = function () {
 
-        var tween = TweenLite.to(this._el, 0.5, {
+        var tween = TweenLite.to(this._el, 0.001, {
             scale: 1,
             autoAlpha: 1,
             clearProps: 'all',
