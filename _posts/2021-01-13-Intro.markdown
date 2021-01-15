@@ -57,7 +57,7 @@ Now, open your code editor of choice, and add the image as follows:
 
 For the post itself, we'll use the follwing format:
 
-_Filename_: `2021-01-15-<YOUR-ROLL-NUMBER>.markdown`
+_Filename_: `2021-01-01-<YOUR-ROLL-NUMBER>.markdown`
 
 ```
 ---
@@ -65,7 +65,7 @@ title:  "YOUR-NAME"
 subtitle: "About Me"
 author: "YOUR-NAME"
 image: "img/YOUR-ROLL-NUMBER-BACKGROUND.jpg"
-date:   2021-01-15 12:12:12
+date:   2021-01-01 12:12:12
 ---
 
 ## About me
@@ -84,8 +84,8 @@ Psst. Check this out for some markdown syntax: <a style="color:blue" href= "http
 
 First, let's add the files. This is done by performing the following commands:
 
-- `git add img/YOUR-ROLL-NUMBER-BACKGROUND.png`
-- `git add _posts/2021-01-15-<YOUR-ROLL-NUMBER>.markdown`
+- `git add img/YOUR-ROLL-NUMBER-BACKGROUND.jpg` 
+- `git add _posts/2021-01-01-<YOUR-ROLL-NUMBER>.markdown`
 
 Now, type `git status`. It should be all green.
 
