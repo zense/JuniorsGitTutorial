@@ -80,7 +80,8 @@ date:   2021-01-01 12:12:12
 
 Feel free to add your creative touch to the segments, but make sure to only modify the content below the two `---` placeholders. Create this file and add it to the `_posts` folder.
 
-Now, run the project again locally, and see if your new post is reflected.
+Now, run the project again locally, and see if your new post is reflected.  
+Psst. Check this out for some syntax: [Markdown basic guide](https://www.markdownguide.org/basic-syntax/)
 
 ### Committing and Pushing your changes
 
