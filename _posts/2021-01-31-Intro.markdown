@@ -4,7 +4,7 @@ subtitle: "Read and get started!"
 author: "Zense"
 avatar: "img/logo/zense_logo_cropped.png"
 image: "img/logo/git_black1.png"
-date: 2021-01-13 00:00:00
+date: 2021-01-31 00:00:00
 ---
 
 Hello, and welcome to this website!  
