@@ -246,7 +246,7 @@ a:focus {
 	color: #4f4c4c;
 }
 
-.body .header h1 span {
+.body .header p{
 	color: #4f4c4c;
 }
 
@@ -260,13 +260,13 @@ a:focus {
 /* Header */
 
 .header {
-	padding: 2em 1em;
+	padding: 2em 10em;
 	text-align: center;
 }
 
-.header h1 {
-	font-size: 3em;
-	font-weight: 400;
+.header  {
+	font-size: 1.3em;
+	font-weight: 600;
 	line-height: 1.2;
 	margin: .5em 0 0;
 }
@@ -356,4 +356,3 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
-
