@@ -3,7 +3,7 @@ title: "Shridhar"
 subtitle: "About Me"
 author: "Me b r u h, who else"
 image: "img/IMT2020065-BACKGROUND.jpg"
-date: 2021:01:15 11:51
+date: 2021-01-15 11:51:12
 ---
 
 ## About Me
