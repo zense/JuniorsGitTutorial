@@ -21,19 +21,19 @@ Through this activity-based tutorial, you'll learn how to:
 
 ## Forking the repository
 
-Background information about forking: [Github Documentation](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+Background information about forking: <a style="color:blue" href= "https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo" target="_blank">Github Documentation</a>
 
 A fork is a _copy_ of a repository.
 
 Forking a repository allows you to freely experiment with changes without affecting the original project. This is something you'd want to do on a regular basis, to make sure that your changes work and do not affect any other part of the project in an adverse manner.  
 These are the steps to follow:
 
-- Navigate to the [repo](https://github.com/zense/JuniorsGitTutorial), and click on the `fork` button.
+- Navigate to the <a style="color:blue" href= "https://github.com/zense/JuniorsGitTutorial" target="_blank">repo</a>, and click on the `fork` button.
 - This should create a repo with the name of the form `YOUR-USERNAME/YOUR-REPOSITORY`
 
 ## Cloning the forked repository
 
-Background information about cloning: [Github Documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+Background information about cloning: <a style="color:blue" href= "https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">Github Documentation</a>
 
 When you clone a repository, you _copy_ the repository from GitHub to your local machine.  
 These are the steps to follow:
@@ -42,7 +42,7 @@ These are the steps to follow:
   - `mkdir MyIntro`
   - `cd MyIntro`
 - Then, go to your forked repository, click on the green code button and copy the link provided.
-- Then, go to your terminal and paste it. It could be of the form, ` git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+- Then, go to your terminal and paste it. It could be of the form, `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
 
 ### Adding your files and information
 
@@ -50,24 +50,22 @@ Now for the fun part!
 You'll need the following files ready:
 
 - A background picture for your post. Call it `YOUR-ROLL-NUMBER-BACKGROUND.jpg`
-- A profile picture for your post. Call it `YOUR-ROLL-NUMBER-PROFILE.jpg`
 
-Now, open your code editor of choice, and add the two images as follows:
+Now, open your code editor of choice, and add the image as follows:
 
-- Add `YOUR-ROLL-NUMBER-PROFILE.jpg` into `img/authors` folder.
 - Add `YOUR-ROLL-NUMBER-BACKGROUND.jpg` into `img` folder.
 
 For the post itself, we'll use the follwing format:
-_Filename_: `2021-01-01-<YOUR-ROLL-NUMBER>.markdown`
+
+_Filename_: `2021-01-15-<YOUR-ROLL-NUMBER>.markdown`
 
 ```
 ---
-title:  "YOUR-ROLL-NUMBER"
+title:  "YOUR-NAME"
 subtitle: "About Me"
 author: "YOUR-NAME"
-avatar: "img/authors/YOUR-ROLL-NUMBER-PROFILE.png"
 image: "img/YOUR-ROLL-NUMBER-BACKGROUND.jpg"
-date:   2021-01-01 12:12:12
+date:   2021-01-15 12:12:12
 ---
 
 ## About me
@@ -80,21 +78,20 @@ date:   2021-01-01 12:12:12
 
 Feel free to add your creative touch to the segments, but make sure to only modify the content below the two `---` placeholders. Create this file and add it to the `_posts` folder.
 
-Now, run the project again locally, and see if your new post is reflected.  
-Psst. Check this out for some syntax: [Markdown basic guide](https://www.markdownguide.org/basic-syntax/)
+Psst. Check this out for some markdown syntax: <a style="color:blue" href= "https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown basic guide</a>
 
 ### Committing and Pushing your changes
 
 First, let's add the files. This is done by performing the following commands:
 
-- `git add img/authors/YOUR-ROLL-NUMBER-PROFILE.png`
 - `git add img/YOUR-ROLL-NUMBER-BACKGROUND.png`
-- `git add _posts/2021-01-01-<YOUR-ROLL-NUMBER>.markdown`
+- `git add _posts/2021-01-15-<YOUR-ROLL-NUMBER>.markdown`
 
 Now, type `git status`. It should be all green.
 
-Now, we commit our files by typing `git commit -m "Added files for YOUR-ROLL-NUMBER"`.
-Finally, we push the changes by typing `git push -u origin master`.
+Now, we commit our files by typing &nbsp; `git commit -m "Added files for YOUR-ROLL-NUMBER"`.
+
+Finally, we push the changes by typing &nbsp; `git push`.
 
 ### Confirming the pull request
 
@@ -103,4 +100,4 @@ Go back to your created repo on github and click on the `Compare and Pull reques
 ### Celebration Time
 
 We hope that everything went smmoothly. If not, do not hesitate to contact us :)  
-You can see the fruits of your hardwork [here](https://zense.co.in/JuniorsGitTutorial/)
+You can see the fruits of your hardwork <a style="color:blue" href= "https://zense.co.in/JuniorsGitTutorial/">here</a>
