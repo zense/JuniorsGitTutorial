@@ -1,0 +1,23 @@
+---
+title: "Shridhar"
+subtitle: "About Me"
+author: "Me b r u h, who else"
+image: "img/IMT2020065-BACKGROUND.jpg"
+date: 2021-01-01 12:12:12
+---
+
+## About Me
+
+Don't mind me, I'm just here to learn git.<br/>
+I love books tho. And movies. And football. And video games.<br/>   
+In short, I love everything which releases that sweet dopamine hehe.<br/>    
+
+## Socials
+
+[Instagram](https://www.instagram.com/shridhar.sharma26/)<br/>
+[Goodreads](www.goodreads.com/aejonsnowarkgaryan)<br/>
+
+
+
+
+
