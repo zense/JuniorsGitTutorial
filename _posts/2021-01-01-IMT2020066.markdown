@@ -1,0 +1,18 @@
+---
+title: "Hasanabbas Momin"
+subtitle: "About Me"
+author: "Hasanabbas Momin"
+image: "img/IMT2020066-Hasan.jpg"
+date: 2021-01-15 12:12:12
+---
+
+## About me
+
+Hey I'm Hasanabbas Momin, living in Bangaluru, love to code, play video games, play basketball, TT, badminton, valleyball and swimming follow my socials below.;)
+
+## Socials
+
+[Instagram](https://www.instagram.com/official_hasanmomin/)<br/>
+[Facebook](https://www.facebook.com/hasan.abbas.77715)<br/>
+[Github](https://github.com/Hasanabbas-Momin)<br/>
+[Youtube](https://www.youtube.com/channel/UCdZVtZFWaayIq-r2kcXZLyA)
