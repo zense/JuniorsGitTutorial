@@ -3,7 +3,7 @@ title: "Shridhar"
 subtitle: "About Me"
 author: "Me b r u h, who else"
 image: "img/IMT2020065-BACKGROUND.jpg"
-date: 2021-01-15 11:51:12
+date: 2021-01-01 12:12:12
 ---
 
 ## About Me
@@ -14,7 +14,10 @@ In short, I love everything which releases that sweet dopamine hehe.<br/>
 
 ## Socials
 
-[Not quite sure what to put here, but here's a great math video](https://www.youtube.com/watch?v=WFoC3TR5rzI)<br/>
+[Instagram](https://www.instagram.com/shridhar.sharma26/)<br/>
+[Goodreads](www.goodreads.com/aejonsnowarkgaryan)<br/>
+
+
 
 
 
