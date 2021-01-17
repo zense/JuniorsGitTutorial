@@ -1,0 +1,17 @@
+---
+title:  "Rishi Vakharia"
+subtitle: "Intro"
+author: "Rishi Vakharia"
+image: "img/IMT2020067-BACKGROUND.jpg"
+date:   2021-01-01 12:12:12
+---
+
+## About me
+
+Hey, Zense. Just a beginner here to programming, trying to learn cool things.<br/>
+I like playing Cricket and listen to songs.<br/>
+
+## Socials
+
+[Insta](https://www.instagram.com/rishi.2o2o/?hl=en)<br/>
+
