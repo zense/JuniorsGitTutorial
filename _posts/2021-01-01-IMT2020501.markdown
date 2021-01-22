@@ -1,0 +1,14 @@
+---
+title:  "Shreyansh Rai"
+subtitle: "About Me"
+author: "Shreyansh Rai"
+image: "img/IMT2020501-BACKGROUND.jpg"
+date:   2021-01-01 12:12:12
+---
+
+## About me
+Hello! I am from Thane, Maharashtra. I like anime and manga and the occassional match of FPS games with friends. I also like playing Badminton and basketball!
+
+## Socials
+[Reddit](https://www.reddit.com/user/__Genkai__)
+[Instagram](https://www.instagram.com/shreyansh.rai_/)
