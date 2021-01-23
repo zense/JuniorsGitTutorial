@@ -1,0 +1,20 @@
+---
+title: "Shubhanshu"
+subtitle: "About Me"
+author: "Shubhanshu Agrawal"
+image: "img/IMT2020078_background.jpg"
+date: 2021-01-01 12:12:12
+---
+
+## About Me
+
+I am a newbie who want to learn more<br/>
+
+## Socials
+
+[Instagram](https://www.instagram.com/shubhanshuagrawal19/)<br/>
+[Github](https://github.com/Shubhanshu1902)<br/>
+
+
+
+
