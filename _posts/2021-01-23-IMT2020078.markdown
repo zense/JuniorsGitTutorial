@@ -1,5 +1,5 @@
 ---
-title: "Shubhnashu"
+title: "Shubhanshu"
 subtitle: "About Me"
 author: "Shubhanshu Agrawal"
 image: "img/IMT2020078_background.jpg"
