@@ -1,0 +1,16 @@
+---
+title:  "Chinthan Chandra"
+subtitle: "Small Intro"
+author: "CC"
+image: "img/IMT2020109-background.jpeg"
+date:   2021-01-26 19:00:00
+---
+
+## About me
+
+Hola! I'm Chinthan from Bengaluru, the _city_ of traffic lol. My hobbies include playing basketball, swimming, going on long rides and discovering new stuff xD.<br/>
+Looking forward to learn more **amazing** stuff _@IIIT-B_.<br/>
+
+## Socials
+[Instagram](https://www.instagram.com/chinthann_/)
+[Github](https://github.com/Chinthan23)
