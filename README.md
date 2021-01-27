@@ -14,4 +14,4 @@ The theme we're using: https://jekyllthemes.io/theme/jekyll-modern-blog
  * ### => Now browse to http://127.0.0.1:4000/JuniorsGitTutorial/ 
  
  # Getting Started  
- Please follow this guide: (https://zense.co.in/JuniorsGitTutorial/#/2021/01/31/Intro)[Introductory Post]
+ Please follow this guide: (https://zense.co.in/JuniorsGitTutorial/#/2021/01/31/Intro) [Introductory Post]
