@@ -1,0 +1,13 @@
+---
+title:  "Chinmay Parekh"
+subtitle: "About Me"
+author: "Chinmay"
+image: "img/IMT2020069-BACKGROUND.jpg"
+date:   2021-01-27 12:12:12
+---
+
+## About me
+
+Hi Zense,I am Chinmay Parekh from Mumbai.I like to play cricket,table tennis and learn new things.
+## Socials
+[Instagram](https://www.instagram.com/chinmayparekh_/)<br/>
