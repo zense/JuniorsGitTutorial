@@ -1,0 +1,16 @@
+---
+title:"Mayank Chadha"
+subtitle:"Ahh good point good point"
+author:"Mayank Chadha"
+image:"img/IMT2020045-BACKGROUND.jpg"
+date:2021-01-01 12:12:12
+---
+
+## About me
+
+I love to play chess also i love those people who play chess
+
+
+## Socials
+
+[Instagram](https://www.instagram.com/mayniak_16/)
