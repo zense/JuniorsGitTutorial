@@ -2,7 +2,7 @@
 title:  "Sarthak Harne"
 subtitle: ""
 author: "Sarthak Harne"
-image: "img/IMT2020032.jpg"
+image: "img/IMT2020032-BACKGROUND.jpg"
 date:   2021-01-23 12:12:12
 ---
 
