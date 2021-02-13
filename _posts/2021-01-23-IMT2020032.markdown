@@ -1,0 +1,13 @@
+---
+title:  "Sarthak Harne"
+subtitle: ""
+author: "Sarthak Harne"
+image: "img/IMT2020032.jpg"
+date:   2021-01-23 12:12:12
+---
+
+## About me
+Hey! I am Sarthak from Surat. I like to code and watch movies.
+
+## Socials
+[Instagram](https://www.instagram.com/satty_harne/)
